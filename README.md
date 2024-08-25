@@ -1,4 +1,4 @@
-# VLSM
+# VSLM
 Very Small Language Models.  Inspired by Andrej Karpathy
 
 
