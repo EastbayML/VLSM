@@ -41,3 +41,9 @@ This is just a list of ideas of things we might want to experiment with.
 - Test out ‘Grant Descent’ aka ‘Tangent Descent’ on a language model
 
 #### Power scaling of sum of the attention score values
+
+#### Watch the mean token probability early during training. 
+I think it should go from flat, to matching the natural language distribution?
+
+####  Shaping the probability distribution
+How does the probability distribution of a sequence change given different prompts?
