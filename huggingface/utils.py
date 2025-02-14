@@ -121,7 +121,7 @@ def preprocess_and_cache_dataset(dataset_name, tokenizer,reload=False,max_length
             tokenize_function,
             batched=True,
             remove_columns=dataset["train"].column_names,
-            num_proc=os.cpu_count() - 4,  # Adjust as needed
+            num_proc=os.cpu_count() - 1,  # Adjust as needed
         )
         print("Save dataset to disk")
         dataset.save_to_disk(cached_fname)
